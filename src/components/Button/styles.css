@@ -1,0 +1,32 @@
+button {
+  outline: 0;
+  border: 0;
+  text-transform: uppercase;
+  padding: 16px 48px;
+  border-radius: 24px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all ease-in .2s;
+}
+
+button.primary {
+  background-color: #1ED760;
+  color: white;
+}
+
+button.primary:hover {
+  background-color: #4bdf80;
+}
+
+button.secondary {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 0 2px black inset;
+}
+
+button.secondary:hover {
+  background-color: black;
+  color: white;
+}
