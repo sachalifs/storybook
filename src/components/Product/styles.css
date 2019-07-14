@@ -1,0 +1,27 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .product {
+    flex-direction: row;
+    max-width: 600px;
+  }
+}
+
+.image-container {
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.product img {
+  width: 100%;
+  max-width: 200px;
+}
